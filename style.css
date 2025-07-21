@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    transition: background 0.3s ease;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+.scrolled {
+    background: #111;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
